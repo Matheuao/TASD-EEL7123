@@ -10,3 +10,6 @@ Implementa um conversor de representação binario para RNS (Residual Numeral Sy
 
 ## Lab7 - LAB RNS 2
 Implementa um conversor de representação RNS (Residual Numeral System) para binario.
+ 
+## Lab8 - Compressores
+Implementar a seguinte equação usando o método de compressão e soma: Y = 36A + 44B + 164C + 548D + 36
