@@ -18,7 +18,7 @@ architecture behavior of tb is
 begin
 
     uut: entity work.Compression_and_sum
-        generic map(version=>1)-- version = 0 -> optimize version
+        generic map(version=>0)-- version = 0 -> optimize version
 		 						-- version = 1 -> non optimize version(BASE LINE)
         port map (
             A =>A,
@@ -63,8 +63,8 @@ begin
                                 " B = " & integer'image(B_test(j)) &
                                 " C = " & integer'image(C_test(j)) &
                                 " D = " & integer'image(D_test(j)) &
-                                " expected =" & integer'image(expected) & " got =" & integer'image(got);
-                --severity failure;
+                                " expected =" & integer'image(expected) & " got =" & integer'image(got)
+                severity failure;
             
             wait for 40 ns;
 

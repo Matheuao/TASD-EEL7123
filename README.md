@@ -13,3 +13,6 @@ Implementa um conversor de representação RNS (Residual Numeral System) para bi
  
 ## Lab8 - Compressores
 Implementar a seguinte equação usando o método de compressão e soma: Y = 36A + 44B + 164C + 548D + 36
+
+## Lab9 - Exponenciação 
+Implementar a exponenciação modular de 16 bits.
