@@ -20,17 +20,3 @@ cd vhdl
 bash run.sh
 ```
 
-# Resultados de Síntese: Comparação entre as duas Implementações
-
-Foram avaliadas duas versões do circuito:  
-1. **Compressão e Soma** – implementação estrutural que exige a construção da matriz de informação, redução por compressores e soma final. Essa abordagem demanda maior esforço de engenharia.  
-2. **Baseline** – implementação direta da expressão utilizando os operadores `*` e `+`, sem otimizações manuais.
-
-A tabela abaixo apresenta os resultados de síntese no FPGA:
-
-| Implementação       | FMAX          | Elementos Lógicos Utilizados |
-|---------------------|---------------|------------------------------|
-| Compressão e Soma   | 207.86 MHz    | 85 / 114,480 (< 1%)          |
-| Baseline            | 179.76 MHz    | 76 / 114,480 (< 1%)          |
-
-Os resultados mostram que a técnica de compressão e soma alcançou uma frequência máxima maior, ao custo de um pequeno aumento no número de elementos lógicos utilizados, quando comparada à versão baseline.
