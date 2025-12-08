@@ -16,3 +16,6 @@ Implementar a seguinte equação usando o método de compressão e soma: Y = 36A
 
 ## Lab9 - Exponenciação 
 Implementar a exponenciação modular de 16 bits.
+
+## LAB10 - LAB RNS 3
+Implementa aritmética residual.
